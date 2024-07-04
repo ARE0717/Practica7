@@ -1,0 +1,48 @@
+body{
+    background-color: aqua;
+}
+@media (min-width:1170px) and (max-width:2000px){
+    .contenedor , .contenedor2 , .contenedor3 , .contenedor4{
+        display: none;
+    }
+    table{
+        border: 3px solid rgb(2, 85, 85);
+        width: 80%;
+        border-spacing: 0;
+    }
+    td{
+        padding: 10px;
+        text-align: center;
+        border: 2px solid rgb(0, 139, 97);
+        background-color: cadetblue;
+        color: white;
+    }
+    th{
+        background-color: darkcyan;
+        color: white;
+    }
+}
+@media (min-width:300px) and (max-width:1169px){
+   table{
+    display: none;
+   }
+   tbody{
+    display: none;
+   }
+   .contenedor2 , .contenedor2{
+     margin-bottom: 20px;
+   }
+    .contenedor , .contenedor3  {
+        text-align: center;
+        border: 2px solid #000;
+        background-color: darkcyan;
+        color: white;
+    }
+    .contenedor2 , .contenedor4{
+        text-align: center;
+        border: 1px solid #000;
+        background-color: cadetblue;
+        color: white;
+
+    }
+}
